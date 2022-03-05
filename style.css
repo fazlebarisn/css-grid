@@ -1,7 +1,11 @@
 .parent{
     padding: 20px;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    /* grid-template-columns: 33% 33% 33%; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* column-gap: 20px;
+    row-gap: 20px; */
+    gap: 20px;
 }
 
 .item{
