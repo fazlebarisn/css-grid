@@ -15,6 +15,14 @@
     line-height: 1.7;
 }
 
+.item:nth-child(2){
+    font-size: 1.1rem;
+    grid-row: span 2;
+    /* align-self: center; */
+    display: grid;
+    align-content: center;
+}
+
 .item p{
     margin: 0;
 }
